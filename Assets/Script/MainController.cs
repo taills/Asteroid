@@ -260,7 +260,7 @@ public class MainController : MonoBehaviour
         iTween.MoveTo(projectile, iTween.Hash("path", paths, "movetopath", true, "orienttopath", true, "time", 1, "easetype", iTween.EaseType.linear));
 
         // 设置状态为被攻陷
-        To.GetComponent<SinglePlanet>().SetAttack(true);
+        // To.GetComponent<SinglePlanet>().SetAttack(true);
     }
 
     void UpdateRankList(JsonData teamRanks)
